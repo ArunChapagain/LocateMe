@@ -1,21 +1,12 @@
-
-<p align="center">
+<h1 align="center"> 
+ LocateMe 
+</h1> <p align="center">
   <img alt="Preview1" src="./README/preview.png">
 </p>
 
 <br/>
 
-<h1 align="center"> 
- LocateMe 
-</h1> 
-
-
-
 <sub>
-
-## 🌏 Related websites
-> Flutter official website: [https://flutter.dev/](https://flutter.dev/)
-> Packages (original site): [https://pub.dev/](https://pub.dev/)
 
 ## 🛠️ Development environment
 
@@ -38,6 +29,51 @@ macOS:
 [✓] Xcode -develop for iOS and macOS (Xcode 15.4)
 [✓] Android Studio (version 2023.3)
 [✓] VS Code (version 1.89.1)
-```  
+```
 
+## 📖 Setup and Run the App
 
+### Prerequisites
+```
+- Ensure you have Flutter installed. Follow the instructions [here](https://flutter.dev/docs/get-started/install).
+- Install Android Studio for mobile development.
+- Install Visual Studio Code or any other preferred IDE.
+```
+### Setup
+
+1. **Clone the repository**:
+    ```sh
+   git clone  https://github.com/ArunChapagain/LocateMe.git
+    cd location_template
+    ```
+
+2. **Install dependencies**:
+    ```sh
+    flutter pub get
+    ```
+
+3. **Set up your development environment**:
+```
+    - For Android: Ensure you have an Android emulator set up or a physical device connected.
+    - For iOS: Ensure you have an iOS simulator set up or a physical device connected.
+```
+## Running the App
+
+1. **Run on Android**:
+    ```sh
+    flutter run --debug // for debug mode
+    flutter run --release // for release mode
+    ```
+
+2. **Run on iOS**:
+    ```sh
+    flutter run
+    ```
+
+3. **Run on Web**:
+    ```sh
+    flutter run -d chrome
+    ```
+## 🌏 Related websites
+> Flutter official website: [https://flutter.dev/](https://flutter.dev/)
+> Packages (original site): [https://pub.dev/](https://pub.dev/)
