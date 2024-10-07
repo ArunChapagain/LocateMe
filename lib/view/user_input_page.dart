@@ -62,7 +62,7 @@ class _UserInputPageState extends State<UserInputPage> {
                 children: <Widget>[
                   const SizedBox(height: 20),
                   const Text(
-                    'Welcome to Ridesene',
+                    'Welcome to LocateMe',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 32,
@@ -105,7 +105,8 @@ class _UserInputPageState extends State<UserInputPage> {
                               return null; // No error if input is valid
                             },
                             decoration: InputDecoration(
-                              hintText: 'Enter city name, location or zip code',
+                              hintText:
+                                  'Enter city name, location or coordinates',
                               hintStyle: const TextStyle(color: Colors.grey),
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10),
@@ -181,13 +182,10 @@ class _UserInputPageState extends State<UserInputPage> {
                               }
                             },
                             style: ElevatedButton.styleFrom(
+                              minimumSize: const Size(double.infinity, 60),
                               backgroundColor: Colors.black,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10),
-                              ),
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 160,
-                                vertical: 15,
                               ),
                             ),
                             child: const Text(
@@ -200,6 +198,7 @@ class _UserInputPageState extends State<UserInputPage> {
                       );
                     },
                   ),
+                  const SizedBox(height: 20)
                 ],
               ),
             ),

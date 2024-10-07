@@ -21,7 +21,7 @@ class _UserLocationPageState extends State<UserLocationPage> {
   final Map<String, String> mapTypes = {
     'OSM': 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
     'colored':
-        'https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png??api_key=7e32fda8-bbd1-4302-ad85-7bbcdb37960e',
+        'https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png??api_key=7e32fda8-bbd1-4302-ad85-7bbcdb37960e',// Add your API key here
     'Terrain':
         "https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.png?api_key=7e32fda8-bbd1-4302-ad85-7bbcdb37960e"
   };
